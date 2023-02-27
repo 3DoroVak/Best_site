@@ -48,7 +48,7 @@
     .main { 
         background: url("../Image/430px.png"); 
         background-repeat: no-repeat; 
-        width: 430px;
+        width: 100%;
     } 
 
     .h1 {
