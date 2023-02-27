@@ -3,6 +3,7 @@
 .Body {
     font-family: 'Inter';
     background: #BCCDD1;
+    overflow-x: hidden;
 }
 
     /* стили для текста */
