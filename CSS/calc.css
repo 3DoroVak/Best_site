@@ -1,125 +1,131 @@
 .calcul_heading {
     position: relative;
     height: 48px;
-    left: 617px;
+    left: 35%;
     top: 65px;
     font-weight: 500;
-    font-size: 16vw;
     line-height: 48px;
 }
 
 .calc_form {
     box-sizing: border-box;
     position: relative;
-    width: 100%;
-    height: 584px;
+    width: 86%;
+    height: 699px;
     left: 100px;
-    top: 100px;
+    top: 150px;
     background: rgba(245, 245, 245, 0.51);
     border: 3px solid #F5F5F5;
     border-radius: 12px;
 }
 
 .men_button_form {
-    position: relative;
-    height: 70px;
-    top: 50px;
-    left: 150px;
+    position: absolute;
+    width: 20%;
+    height: 63px;
+    top: 70px;
+    left: 30%;
 }
 
 .women_button_form {
-    position: relative;
-    left: 190px;
-    height: 70px;
+    position: absolute;
+    left: 53%;
+    width: 20%;
+    height: 63px;
+    top: 70px;
 }
 
 .sex_text_form {
-    position: relative;
+    position: absolute;
     height: 33px;
     left: 100px;
-    top: 50px;
+    top: 80px;
 }
 
 .age_form {
-    position: relative;
-    height: 49px;
+    position: absolute;
     left: 100px;
-    top: 100px;
+    top: 200px;
+    width: 200px;
 }
 
 .age_text_form {
-    position: relative;
+    position: absolute;
     box-sizing: border-box;
     width: 20%;
-    height: 70px;
-    left: 125px;
-    top: 100px;
+    height: 60px;
+    left: 30%;
+    top: 200px;
 }
 
 .height_form {
-    position: relative;
+    position: absolute;
     height: 49px;
-    left: 170px;
-    top: 100px;
+    left: 53%;
+    top: 200px;
 }
 
 .height_text_form {
-    position: relative;
+    position: absolute;
     box-sizing: border-box;
-    height: 70px;
-    left: 200px;
-    top: 100px;
+    height: 60px;
+    left: 75%;
+    top: 200px;
+    width: 20%;
 }
 
 .weight_form {
-    position: relative;
+    position: absolute;
     height: 49px;
     left: 100px;
-    top: 160px;
+    top: 350px;
 }
 
 .weight_text_form {
-    position: relative;
+    position: absolute;
     box-sizing: border-box;
-    height: 70px;
-    left: 175px;
-    top: 160px;
+    height: 60px;
+    left: 30%;
+    top: 350px;
+    width: 20%;
 }
 
 .purpose_form {
-    position: relative;
+    position: absolute;
     height: 49px;
-    left: 225px;
-    top: 160px;
+    left: 53%;
+    top: 350px;
 }
 
 .purpose_form_text {
-    position: relative;
-    height: 70px;
-    top: 160px;
-    left: 235px;
+    position: absolute;
+    height: 60px;
+    width: 20%;
+    top: 350px;
+    left: 75%;
 }
 
 .activity_form {
-    position: relative;
-    height: 77px;
+    position: absolute;
+    width: 250px;
     left: 100px;
-    top: 210px
+    top: 500px
 }
 
 .activity_form_text {
-    position: relative;
-    height: 70px;
-    left: 150px;
-    top: 210px;
+    position: absolute;
+    height: 60px;
+    left: 30%;
+    top: 500px;
+    width: 20%;
 }
 
 .button_calc {
     position: absolute;
     background: url("../Image/button_calc.svg");
     background-repeat: no-repeat;
-    left: 1214px;
-    top: 564px;
+    left: 60%;
+    top: 500px;
     width: 260px;
     height: 78.83px;
 }
