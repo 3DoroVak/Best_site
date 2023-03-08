@@ -224,13 +224,13 @@
     .activity_form {
         position: absolute;
         top: 400px;
-        left: 10%;
+        left: 20px;
     }
 
     .activity_form_text {
         position: absolute;
-        top: 450px;
-        left: 30%;
+        top: 400px;
+        left: 60%;
         height: 40px;
         width: 37%;
     }
@@ -239,7 +239,7 @@
         background: url("../Image/button_calc_430.svg");
     background-repeat: no-repeat;
         position: absolute;
-        top: 525px;
+        top: 510px;
         left: 30%;
     }
 }
