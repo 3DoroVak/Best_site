@@ -243,6 +243,7 @@
         left: 30%;
     }
 }
+<<<<<<< HEAD
 
 @media (min-width: 430px) and (max-width: 1024px) {
     .calc_form {
@@ -361,3 +362,5 @@
         left: 40%;
     }
 }
+=======
+>>>>>>> 9ec3c386c822a3c37854f21fd6ef86ada31ebd68
