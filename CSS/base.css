@@ -46,4 +46,12 @@
     .text_heading {
         font-size: 8vw;
     }
+
+    .text_form {
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    
 }

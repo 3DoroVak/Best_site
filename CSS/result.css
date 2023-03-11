@@ -75,3 +75,29 @@
         font-size: 15px;
     }
 }
+
+@media (min-width: 430px) and (max-width: 1024px) {
+    .result_block {
+        position: relative;
+    padding: 0;
+    margin: 0;
+    background: url("../Image/breakfast_plan.png");
+    background-repeat: no-repeat;
+    height: 800px;
+    }
+
+    .result_text {
+        position: absolute;
+        font-size: 5vw;
+        top: 80px;
+        left: 40%;
+    }
+
+    .table_result {
+        position: absolute;
+        top: 200px;
+        left: 5%;
+        width: 90%;
+        font-size: 2vw;
+    }
+}
