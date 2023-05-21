@@ -1,0 +1,104 @@
+
+.main {
+    padding: 0;
+    margin: 0;
+    background: url("../Image/main_background.png");
+    background-repeat: no-repeat;
+    height: 870px;
+}
+
+.text__main {
+    position: absolute;
+    height: 50.45px;
+    left: 1000px;
+    top: 477px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.h1 {
+    position: absolute;
+    height: 76.73px;
+    left: 897px;
+    top: 342px;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+    text-decoration: underline #3C545F solid;
+    padding-top: 3px;
+}
+
+.btn_main {
+    position: absolute;
+    background: url("../Image/main_button.svg");
+    background-repeat: no-repeat;
+    left: 1150px;
+    top: 564px;
+    width: 197px;
+    height: 78.83px;
+}
+
+
+
+@media (max-width: 430px) { 
+
+
+    .main { 
+        background: url("../Image/430px.png"); 
+        background-repeat: no-repeat; 
+        width: 100%;
+        
+    } 
+
+    .h1 {
+        position: absolute;
+        top: 20px;
+        left: 25%;
+        font-size: 25px;
+    }
+
+    .text__main {
+        position:absolute;
+        top: 100px;
+        left: 28%;
+        font-size: 20px;
+    }
+
+    .btn_main {
+    background: url("../Image/main_button-430.svg");
+    background-repeat: no-repeat;
+    left: 35%;
+    top: 172.61px;
+        }
+}
+
+@media (min-width: 430px) and (max-width: 1024px) {
+    .main { 
+        background: url("../Image/main_background_1024_plan.png"); 
+        background-repeat: no-repeat; 
+        width: 100%;
+            }
+
+    .h1 {
+        position: absolute;
+        top: 100px;
+        left: 60%;
+        font-size: 4vw;
+    }
+
+    .text__main {
+        position:absolute;
+        top: 200px;
+        left: 65%;
+        font-size: 3vw;
+    }
+
+    .btn_main {
+        background: url("../Image/main_button_plan.svg");
+        background-repeat: no-repeat;
+        left: 78%;
+        top: 300px;
+            }
+}

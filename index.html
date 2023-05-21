@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://3dorovak.github.io/Best_site/CSS/style.css">
+    <title>health</title>
+</head>
+
+<body class="Body">
+    <main class="main">
+        <h1 class="h1 text_darkblue line">Онлайн-калькулятор</h1>
+        <span class="text__main text_darkblue">Расчет калорий и БЖУ</span>
+        <a href="#Calc" class="btn_main"> 
+            <div class="btn_img">  
+            </div>
+        </a>
+    </main>
+    <section class="calc_block">
+        <div class="">
+            <h3 id="Calc" class="calcul_heading text_darkblue text_heading">Калькулятор</h3>
+
+            <form class="calc_form" id="calc_form" onsubmit="return calcform(this)" method="post">
+                <span class="sex_text_form text_form text_darkblue">Выберите свой пол:</span>
+                <input type="radio" value="Мужской" name="state" id="male" class="radio_one">
+                <label for="male">Мужской</label>
+                <input type="radio" value="Женский" name="state" id="female">
+                <label for="female">Женский</label>
+
+
+                <span class="age_form text_form text_darkblue ">Введите свой возраст:</span>
+                <input type="text" name="age" id="age" placeholder="18" class="age_text_form text_input input_style">
+            
+            
+                <span class="height_form text_darkblue text_form ">Введите свой рост:</span>
+                <input type="text" name="height" id="height" placeholder="185" class="height_text_form text_input input_style"><br>
+            
+            
+                <span class="weight_form text_darkblue text_form ">Введите свой вес:</span>
+                <input type="text" name="weight" id="weight" placeholder="80" class="weight_text_form text_input input_style">
+            
+            
+                <span class="purpose_form text_form text_darkblue">Выберите свою цель:</span>
+                <select name="purpose" id="purpose" class="purpose_form_text text_input input_style">
+                    <option value="0.8">Похудение</option>
+                    <option value="1">Поддержка формы</option>
+                    <option value="1.15">Набор массы</option>
+                </select><br>
+            
+            
+                <span class="activity_form text_form text_darkblue">Выберите свой уровень активности:</span>
+                <select name="activity" id="activity" class="activity_form_text text_input input_style">
+                    <option value="1.2">Минимальная</option>
+                    <option value="1.3">Низкая</option>
+                    <option value="1.55">Умеренная</option>
+                    <option value="1.7">Высокая</option>
+                    <option value="1.8">Экстремальная</option>
+                </select>
+                <button type="submit" name="submit" value="Готово" class="button_calc"></button>
+            </form> 
+        </div>  
+    </section>
+
+    <section class="result_block">
+        <h3 class="result_text text_darkblue text_heading" id="ReSult">Результаты</h3>
+        <div class="conteiner_result">
+        <table class="table_result text_darkblue">
+            <tr>
+                <th>Каллории</th>
+                <th>Белки, г</th>
+                <th>Жиры, г</th>
+                <th>Углеводы, г</th>
+            </tr>
+            <tr>
+                <td id="r1" align="center"></td>
+                <td id="r2" align="center"></td>
+                <td id="r3" align="center"></td>
+                <td id="r4" align="center"></td>
+            </tr>
+        </table>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

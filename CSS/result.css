@@ -1,0 +1,103 @@
+.image_result {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: -1px;
+    top: 1800px;
+}
+
+.table_result {
+    box-sizing: border-box;
+    position: absolute;
+    width: 940px;
+    height: 177px;
+    left: 250px;
+    top: 200px;
+    background: #E1E3E7;
+    opacity: 0.7;
+    border: 3px solid #3C545F;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 33px;
+    color: #3C545F;
+}
+
+.result_text {
+    position: absolute;
+    width: 229px;
+    height: 48px;
+    left: 600px;
+    top: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #3C545F;
+}
+
+.result_block {
+    position: relative;
+    top: 0px;
+    padding: 0;
+    margin: 0;
+    background: url("../Image/breakfast-sweet-banana-egg-zavtrak-frukty-iagody\ 1.png");
+    background-repeat: no-repeat;
+    height: 555px;
+    top: 300px;
+}
+
+
+
+@media (max-width: 430px) {
+    .result_block {
+        position: relative;
+    padding: 0;
+    margin: 0;
+    background: url("../Image/430\ breacfast.png");
+    background-repeat: no-repeat;
+    height: 800px;
+    }
+
+    .result_text {
+        position: absolute;
+        font-size: 8vw;
+        top: 100px;
+        left: 30%;
+    }
+
+    .table_result {
+        position: absolute;
+        top: 300px;
+        left: 5%;
+        width: 90%;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 430px) and (max-width: 1024px) {
+    .result_block {
+        position: relative;
+    padding: 0;
+    margin: 0;
+    background: url("../Image/breakfast_plan.png");
+    background-repeat: no-repeat;
+    height: 800px;
+    }
+
+    .result_text {
+        position: absolute;
+        font-size: 5vw;
+        top: 80px;
+        left: 40%;
+    }
+
+    .table_result {
+        position: absolute;
+        top: 200px;
+        left: 5%;
+        width: 90%;
+        font-size: 2vw;
+    }
+}
